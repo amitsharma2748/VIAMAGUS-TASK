@@ -6,7 +6,7 @@ import { Route, Routes } from "react-router-dom";
 function App() {
   return (
     <Routes className="App">
-      <Route path="/" element={<Login />} />
+      <Route path="VIAMAGUS-TASK/" element={<Login />} />
       <Route path="/video" element={<Video />} />
       <Route path="/date" element={<Date />} />
     </Routes>
