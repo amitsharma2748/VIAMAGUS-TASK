@@ -12,9 +12,9 @@ import moment from "moment";
 const Date = () => {
   const [startDate, setStartDate] = useState();
   const [duration, setDuration] = useState({
-    days: 0,
-    months: 0,
-    years: 0,
+    days: "",
+    months: "",
+    years: "",
   });
   const [endDate, setEndDate] = useState();
   const changehandler = (e) => {
@@ -33,9 +33,9 @@ const Date = () => {
   const calculateHandler = () => {
     setEndDate(m?.format("YYYY-MM-DD"));
     setDuration({
-      days: 0,
-      months: 0,
-      years: 0,
+      days: "",
+      months: "",
+      years: "",
     });
   };
 
