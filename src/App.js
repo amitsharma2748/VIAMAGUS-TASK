@@ -6,9 +6,9 @@ import { Route, Routes } from "react-router-dom";
 function App() {
   return (
     <Routes className="App">
-      <Route path="VIAMAGUS-TASK/" element={<Login />} />
-      <Route path="/video" element={<Video />} />
-      <Route path="/date" element={<Date />} />
+      <Route path="/VIAMAGUS-TASK" element={<Login />} />
+      <Route path="/VIAMAGUS-TASK/video" element={<Video />} />
+      <Route path="VIAMAGUS-TASK/date" element={<Date />} />
     </Routes>
   );
 }
