@@ -48,7 +48,7 @@ const Date = () => {
       <Box margin={"25px"}>
         <Box>
           <div>
-            <FormLabel>Start date</FormLabel>
+            <FormLabel>From date</FormLabel>
           </div>
           <TextField
             type="date"
@@ -56,7 +56,7 @@ const Date = () => {
             onChange={(e) => setStartDate(e.target.value)}
           />
         </Box>
-        <Box>
+        <Box margin={"15px"}>
           <FormLabel>Duration</FormLabel>
           <Box>
             <TextField
@@ -114,8 +114,11 @@ const Date = () => {
           </Box>
         </Box>
       </Box>
-      <Box margin={"55px"}>
-        <FormLabel>End Date</FormLabel>
+      <Box margin={"15px"}>
+        <div>
+          <FormLabel>To Date</FormLabel>
+        </div>
+
         <TextField type="date" value={endDate} />
         <Box margin={"25px"}>
           <Button onClick={calculateHandler} variant="contained">
