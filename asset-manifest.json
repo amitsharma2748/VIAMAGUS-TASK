@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/VIAMAGUS-TASK/static/css/main.5983aff1.css",
-    "main.js": "/VIAMAGUS-TASK/static/js/main.e1a5fdec.js",
+    "main.js": "/VIAMAGUS-TASK/static/js/main.ff3d0a26.js",
     "static/media/background.png": "/VIAMAGUS-TASK/static/media/background.81e87c5a7c1aa4bbc951.png",
     "static/media/tree.png": "/VIAMAGUS-TASK/static/media/tree.d7dc4992530dc20f4a06.png",
     "index.html": "/VIAMAGUS-TASK/index.html",
     "static/media/Group 2.svg": "/VIAMAGUS-TASK/static/media/Group 2.acb772d15c3fed68a03d20a6613f1e81.svg",
     "main.5983aff1.css.map": "/VIAMAGUS-TASK/static/css/main.5983aff1.css.map",
-    "main.e1a5fdec.js.map": "/VIAMAGUS-TASK/static/js/main.e1a5fdec.js.map"
+    "main.ff3d0a26.js.map": "/VIAMAGUS-TASK/static/js/main.ff3d0a26.js.map"
   },
   "entrypoints": [
     "static/css/main.5983aff1.css",
-    "static/js/main.e1a5fdec.js"
+    "static/js/main.ff3d0a26.js"
   ]
 }
